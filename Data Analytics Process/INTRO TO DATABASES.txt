@@ -1,0 +1,62 @@
+INTRO TO DATABASES
+
+All things we do is data and this needs to be logged; all this is logged into a database.
+
+Raw data into tabular form; a relational database easy to do operations on such a database.
+
+Datalake an unstructured data dump. Changing this data dump into structured data forms the datawarehouse. Datawarehouse is made up of databases.
+
+Datawarehouse ke case mai have to define everything on the other hand datalake is very agile because data doesn't have structure in the latter.
+
+PROCESS:
+
+-All information is dumped with the help of a python code: DATALAKE; structured and unstructured data. Used in DATASCIENCE
+
+
+-All data is cleaned and transformed into structured form according to requirements form the database. Data Engineer converts the datalake to datawarehouse basically.
+
+
+So why do we even need databases?
+Before everything was stored in EXCEL; data increased MSexcel became inefficient.So, came the idea of databases ab no human intervention toh less scope of error compared to logging into Excel pehle.
+
+
+CLASSIFICATION:
+
+-Heirarchal Databases: Database of higher level explained by database of lower levels. Database of lower level can only explain a single databse of lower level. Legacy Method.
+
+-Network Databases: Database of lower level can explain multiple higher level databases. Legacy Method.
+
+-Relational Databases: Presently in use. Rows & Columns. Simple Datatypes are stored.
+
+-Object Oriented Databases: Complex datatypes are used like json vagera.
+
+
+DATABASE MANAGEMENT / DATAWAREHOSUE DESIGN:
+
+Measures: Values thatre put in a column.
+Facts: Column header
+Dimenision: Helps understand the fact better.
+
+Design the database in such a way that no redundant copies and fast. Star Schema n Snow Flake Schema. Snowflake schema is star schema with more dimensions.
+
+
+DATA LIFECYCLE MANAGEMENT:
+
+-GENERATION
+Data is simply info so life is data and everything about life is data generation.
+-COLLECTED
+Generated data needs to be collected.
+-STORED
+Collected data should be stored.
+-VISUALIZED
+Stored data needs to be visualized.
+-ANALYZED
+These visualizations help us analyse the data.
+-ACTION
+The analysis helps us take neccessary actions.
+
+
+
+
+
+
