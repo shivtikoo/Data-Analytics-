@@ -1,0 +1,47 @@
+-RELATIONAL DATABASE:
+Database in which data is stored in tables and these tables are related to one another. Each row holds unique data called KEY, which uniquely identifies any row in the database. These keys help in forming relations between the databases. 
+Communication with the database is done through SQL; STRUCTURED QUERY LANGUAGE, interface that allows us to interact with the data stored in that database. Loading large data is a problem in excel, SQL tackles with that basically.KEys help understand the term relation in relational database.
+
+-TERMINOLOGIES:
+Attributes: Columns
+Records: Rows
+Relation Schema: Blueprint of the database, relation with other Attributes
+Degree: No. of Attributes
+Cardinality: No. of Records
+
+
+PROVIDES:
+-Security
+-Speed
+-Simplicity
+-Accuracy
+-Accessibility
+-Multi User
+
+
+-ERD:
+Entity Relationship diagrams, visual representation of teh structure of the table and teh relationship between them.
+
+
+-WHY SQL:
+Relational Database ke hi advantages for SQL:
+-Security
+-Accessibility
+-Multi User
+-Speed 
+-Simplicity
+-Accuracy
+SQL analysing multiple tables at once; doesn't provide visualization toh use Tableau. Consistent column datatype is one of the reasons for teh success of Relational Database.
+
+
+-INSTALL:
+MySQL ORACLE ka but not open source. Coded in C & CPP; problem w mySQL is that it is difficult to scale. Doesn't adhere to SQL guidelines
+
+
+-FIRST COMMAND:
+
+
+
+
+
+
