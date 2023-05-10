@@ -38,7 +38,7 @@ SQL analysing multiple tables at once; doesn't provide visualization toh use Tab
 MySQL ORACLE ka but not open source. Coded in C & CPP; problem w mySQL is that it is difficult to scale. Doesn't adhere to SQL guidelines
 
 
--FIRST COMMAND:
+
 
 
 
