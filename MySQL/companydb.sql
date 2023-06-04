@@ -10,14 +10,14 @@ create table employee(
   fname varchar(30),
   minit char(1),
   lname varchar(30),
-  ssn char(9),
+  ssn char(9) PRIMARY KEY,
   bdate date,
   address varchar(30),
   sex char(1),
   salary float(10, 2),
   super_ssn char(9),
-  dno smallint(6),
-  constraint pk_employee PRIMARY KEY (ssn)
+  dno smallint(6)
+
 );
 
 
